@@ -48,5 +48,6 @@ void	eating_action(t_philo *philo);
 void	drop_forks(t_philo *philo);
 void	sleeping_action(t_philo *philo);
 long	get_timestamp(t_table *table);
+long	ft_atol(const char *str);
 
 #endif
